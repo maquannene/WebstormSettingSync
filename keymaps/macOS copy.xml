@@ -1,0 +1,15 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="Exit" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta q" />
+  </action>
+  <action id="RecentFiles" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+</keymap>
