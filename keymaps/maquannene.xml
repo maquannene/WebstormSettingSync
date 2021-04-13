@@ -13,12 +13,29 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
+  <action id="CopyElement" />
+  <action id="DomCollectionControl.Edit">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="Exit" />
+  <action id="ExternalSystem.OpenConfig">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
+  <action id="ForceRunToCursor">
+    <keyboard-shortcut first-keystroke="meta alt f9" />
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="GoToTab1">
     <keyboard-shortcut first-keystroke="meta 1" />
   </action>
@@ -40,19 +57,48 @@
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoBookmark3" />
+  <action id="Graph.RouteEdges" />
+  <action id="Move" />
+  <action id="NavBar-navigate">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="NextDiff" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta q" />
   </action>
+  <action id="ProjectViewEditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="RecentFiles" />
+  <action id="RemoteHostView.EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="meta down" />
   </action>
 </keymap>
