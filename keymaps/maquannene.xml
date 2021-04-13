@@ -34,7 +34,7 @@
   <action id="FileChooser.GotoProject" />
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="meta alt f9" />
-    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="GoToTab1">
     <keyboard-shortcut first-keystroke="meta 1" />
@@ -79,16 +79,12 @@
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
-  <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f6" />
-  </action>
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
-    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f8" />
-    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
@@ -100,5 +96,8 @@
   </action>
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
 </keymap>
