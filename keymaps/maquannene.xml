@@ -58,6 +58,7 @@
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
   <action id="GotoBookmark3" />
+  <action id="GotoTest" />
   <action id="Graph.RouteEdges" />
   <action id="Move" />
   <action id="NavBar-navigate">
@@ -80,9 +81,13 @@
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
+  <action id="ServiceView.ShowServices" />
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f8" />
     <keyboard-shortcut first-keystroke="f8" />
